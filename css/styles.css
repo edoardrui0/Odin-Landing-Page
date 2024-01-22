@@ -14,16 +14,22 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    /* height: 500px; */
+    height: 500px;
 }
 
 .section-1-container {
     width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 .header-list {
@@ -37,6 +43,7 @@ body {
 .section-1-content {
     display: flex;
     justify-content: space-between;
+    flex: 2;
 }
 
 .right-section-1 {
@@ -44,7 +51,7 @@ body {
 }
 
 .lockup-image {
-    width: 175px;
+    width: 400px;
     height: auto;
 }
 
