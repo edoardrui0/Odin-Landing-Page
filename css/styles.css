@@ -57,6 +57,33 @@ body {
 
 .section-2 {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+    margin: 50px;
+}
+
+.card-container {
+    display: flex;
+    gap: 125px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.card-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
 }
 
 .section-3 {
