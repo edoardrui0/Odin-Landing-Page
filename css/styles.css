@@ -88,8 +88,39 @@ body {
 
 .section-3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: #E5E7EB;
+    height: 500px;
+    padding: 50px;
+}
+
+.section-3-text {
+    width: 65rem;
+    font-size: 36px;
 }
 
 .section-4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    display: flex;
+}
+
+.section-4-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 25px;
+    border: 2px solid pink;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
