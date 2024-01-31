@@ -58,6 +58,11 @@ body {
     flex: 1;
 }
 
+.logo-img {
+    width: auto;
+    height: 100px;
+}
+
 .header div {
     font-size: 24px;
     color: #F9FaF8;
@@ -146,8 +151,17 @@ footer {
 .card-box {
     width: 150px;
     height: 150px;
-    border: 5px solid #cd4e56;
-    border-radius: 15px;
+    /* border: 5px solid #cd4e56;
+    border-radius: 15px; */
+}
+
+.card-box img {
+    height: 150px;
+    width: auto;
+}
+
+.card-info {
+    width: 155px;
 }
 
 .section-3 {
@@ -202,7 +216,19 @@ footer {
 }
 
 footer {
+    flex-direction: column;
+    gap: 25px;
     height: 100px;
     background-color: #1F2937
 }
+
+footer a {
+    font-size: 14px;
+    color: white;
+}
+
+/*
+    light blue color - #56baea
+    light red color - #cd4e56   
+    */
 
